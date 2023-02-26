@@ -28,3 +28,77 @@ section.content {
   object-fit: cover;
   object-position: top;
 }
+
+.parent{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: auto;
+
+}
+.parent h2{
+color: #000;
+  }
+
+
+.parent ul{
+  list-style-type: none;
+}
+.parent ul li{
+  margin: 2px;
+  padding: 2px;
+}
+
+section.Championships{
+background-color: rgb(180, 70, 6);
+width: 400px;
+height: 300px;
+text-align: center;
+display: inline-block;
+margin: 20px 30px;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 2px 0px 10px 6px #000;
+color: white;
+}
+
+
+section.achievements{
+  background-color: rgb(180, 70, 6);
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 30px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 0px 10px 6px #000;
+  color: white;
+  }
+
+  section.achievements:hover{
+    background-color: rgb(180, 70, 6);
+    width: 420px;
+    height: 320px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 30px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px 6px #000;
+    color: white;
+    }
+
+    section.Championships:hover{
+      background-color: rgb(180, 70, 6);
+      width: 420px;
+      height: 320px;
+      text-align: center;
+      display: inline-block;
+      margin: 20px 30px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 2px 0px 10px 6px #000;
+      color: white;
+    }
