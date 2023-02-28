@@ -1,0 +1,117 @@
+/* Color Variables */
+:root {
+  --primary-color: #051eff;
+  --secondary-color: #2b4ce2;
+  --third-color: #181b36;
+  --forth-color: #2a2f5f;
+  --grey-color: #d5d5d5;
+  --black-color: #1f1e1e;
+}
+/* Global Styles*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix {
+  clear: both;
+}
+.lawyer-btn {
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15pt;
+}
+.bg-primary {
+  background-color: var(--primary-color);
+}
+/*Sections Styles*/
+.lawyer-header {
+  border-bottom: 2px solid var(--black-color);
+  min-height: 70px;
+  padding: 5px 0px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+}
+.lawyer-logo {
+  float: left;
+}
+.lawyer-nav {
+  float: left;
+  margin-left: 100px;
+  margin-top: 18px;
+}
+.lawyer-nav ul li {
+  float: left;
+  margin: 0px 10px;
+}
+
+.lawyer-nav ul li a {
+  color: #636161;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 5px;
+}
+.lawyer-nav ul li a:hover,
+.lawyer-nav ul li a.active {
+  background-color: var(--black-color);
+  color: white;
+}
+.lawyer-phone {
+  background-color: var(--primary-color);
+  padding: 15px;
+  color: white;
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14pt;
+  margin-right: auto;
+}
+.hero {
+  height: 100vh;
+  background-image: url("images/im3.jpg");
+  width: 100vw;
+  background-size: cover;
+  background-position: center top;
+}
+.hero .container {
+  padding-top: 82px;
+}
+.lawyer-section-title {
+  text-transform: uppercase;
+  position: relative;
+}
+.lawyer-section-title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: var(--primary-color);
+  bottom: 12px;
+}
+.lawyer-section-title p {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 18pt;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.hero h1 {
+  width: 50%;
+  font-size: 63pt;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.hero h1 + p {
+  width: 50%;
+  font-size: 14pt;
+  margin-top: 25px;
+}
+.hero h1 + p + button {
+  margin-top: 25px;
+}
