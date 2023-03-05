@@ -1,0 +1,135 @@
+:root{
+        --primary-color: #051eff;
+        --secondary-color: #2b4ce2;
+        --third-color: #181b36;
+        --forth-color: #2a2f5f;
+        --grey-color: #d5d5d5;
+        --black-color: #1f1e1e;
+}
+
+.container{
+    width: 1200px;
+    margin:0 auto;    
+}
+/* sections */
+.lawyer-header{
+width: 100%;
+border-bottom: 3px solid var(--third-color);
+min-height: 70px;
+padding: 5px 0px;
+position: fixed;
+background-color: white;
+}
+
+.lawyer-logo{
+    float: left;
+}
+
+.lawyer-nav{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px ;
+}
+.lawyer-nav ul li{
+    float: left;
+    margin: 0px 15px;
+}
+
+.lawyer-nav ul li a{
+text-decoration: none;
+color:#494141;
+font-size: 14pt;
+font-weight: bold;
+text-transform: uppercase;
+padding: 15px 5px;
+}
+
+.lawyer-nav ul li a:hover{
+    color:#ffffff;
+    background-color: var(--black-color);
+    }
+
+    .lawyer-nav ul li a.active{
+        padding: 15px 5px;
+        color:#ffffff;
+        background-color: var(--black-color);
+
+    }
+
+    .lawyer-phone{
+        float: right;
+        height: 50px;
+        width: 120px;
+        background-color: var(--primary-color);
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12pt;
+        margin-top:2px ;
+    }
+    .lawyer-phone{
+    cursor: pointer;
+    }
+
+    .hero{
+        height:100vh;
+        background-image: url(../images/im3.jpg);
+        width: 100vw;
+        background-size: cover;
+        background-position: center top;        
+    }
+
+    .hero .container{
+        padding-top: 82px;
+    }
+    .lawyer-secton-title{
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .lawyer-secton-title::before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3.5px;
+    position: absolute;
+    background-color: var(--primary-color);
+    bottom: 10px;
+    }
+
+    .lawyer-secton-title .lawyer-P1{
+      margin-top: 25px;
+      margin-left: 50px;
+      color: var(--primary-color);
+      font-size: 18pt;
+      font-weight: bold;
+    }
+
+    .hero h1{
+        color: var(--black-color);
+        font-size: 62pt;
+        font-weight: bold;
+        width: 600px;
+        margin-top: 50px;
+    }
+
+    .lawyer-P2{
+        margin-top: 20px;
+        width:600px ;
+        font-size: 14pt;
+    }
+
+    .lawyer-learn{
+        margin-top: 30px;
+        height: 65px;
+        width: 220px;
+        background-color: var(--primary-color);
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    .lawyer-learn:hover{
+cursor: pointer;
+    }
