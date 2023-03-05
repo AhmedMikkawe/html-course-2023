@@ -34,6 +34,7 @@
   width: 100%;
   background-color: #fff;
   position: fixed;
+  z-index: 2;
 }
 .lawyer-logo {
   float: left;
@@ -114,4 +115,37 @@
 }
 .hero h1 + p + button {
   margin-top: 25px;
+}
+.lawyer-section-title + h2.practice-area-p {
+  font-size: 3vw;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 2vw;
+}
+.practice-cards {
+  margin-top: 50px;
+}
+.practice-cards .card {
+  width: 25%;
+  border: 1px solid #636161;
+  padding: 20px;
+  display: inline-block;
+  margin: 0 15px;
+}
+.practice-cards .card .card-icon {
+  color: var(--forth-color);
+  font-size: 65pt;
+}
+.practice-cards .card h3 {
+  color: var(--forth-color);
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.practice-cards .card p,
+.practice-cards .card a {
+  color: #7e7d7d;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
