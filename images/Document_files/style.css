@@ -153,7 +153,6 @@
 .lawyer-about{
   border: none;
   margin-top: 80px;
-  margin-bottom: 80px;
   background-color: var(--primary-color);
   background-image: url(images/im2.png);
   background-size: contain;
@@ -163,7 +162,7 @@
 
 .lawyer-about-text {
   width: 600px;
-  margin-left: 570px;
+  margin-left: 500px;
 
 
 }
@@ -199,97 +198,4 @@ background-color:white ;
   font-weight: bold;
   color: rgb(184, 180, 180);
 
-}
-.lawyer-about-button{
-background-color:var(--third-color);
-padding: 15px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 14pt;
-margin:30px 0px;
-}
-
-.lawyer-about-button:hover{
-  cursor: pointer;
-}
-
-.lawyer-sign{
-  background-color: var(--secondary-color);
-  padding: 30px;
-  margin: 30px auto;
-  width: 380px;
-}
-
-.lawyer-sign .lawyer-sign-form input {
-width: 150px;
-height: 30px;
-background-color:rgb(231, 226, 226);
-border: none;
-
-}
-
-.lawyer-sign .lawyer-sign-form select {
-  width: 155px;
-  height: 35px;
-  background-color:rgb(231, 226, 226);
-  border: none;
-}
-
-.lawyer-sign .lawyer-sign-form .lawyer-sign-form-1{
-  display: inline-block;
-  margin-left: 30px;
-  margin-top:10px;
-
-}
-
-.lawyer-sign .lawyer-sign-form .lawyer-sign-form-sub{
-  background-color:var(--third-color);
-  color: white;
-  padding: 5px 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 11pt;
-  margin:30px 0px;
-  width: 320px;
-  height: 40px;
-  margin-left: 30px;
-  }
-
-  .lawyer-sign-form textarea{
-    width: 310px;
-    height: 80px;
-    margin-left: 30px;
-    margin-top:10px;
-    background-color:rgb(231, 226, 226);
-    border: none;
-  }
-
-
-  .lawyer-sign .lawyer-section-title::before{
-    background-color:white ;
-    width: 20px;
-    height: 2px;
-    position: absolute;
-    top: 5px;
-    }
-  
-.lawyer-sign .lawyer-section-title p{
-    color: white;
-    font-size: 8pt;
-    margin-left: 25px;
-}
-
-.lawyer-sign .lawyer-section-title{
-  margin: 15px 0;
-  margin-left: 30px;
-  
-}
-
-.lawyer-sign h3{
-  color: white;
-  font-size: 18pt;
-  width: 250px;
-  margin: 5px 0;
-  margin-left: 30px;
 }
