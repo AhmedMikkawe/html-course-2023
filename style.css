@@ -1,0 +1,21 @@
+.parent {
+  height: 900vh;
+  width: 100%;
+  margin-top: 200px;
+  background-color: #3e3e3e;
+  position: relative;
+  overflow: hidden;
+}
+.child {
+  height: 200px;
+  width: 200px;
+  background-color: #8a8888;
+  position: absolute;
+  /* position: relative; */
+  /* position: static; */
+  /* position: absolute; */
+  /* position: fixed; */
+  /* position: sticky; */
+  top: 100px;
+  right: 100px;
+}
